@@ -52,4 +52,17 @@ function countEvenNumbers(numbers){
     return count;
 
 }
-console.log(countEvenNumbers([1, 2, 4, 4]))
+// console.log(countEvenNumbers([1, 2, 4, 4]))
+
+
+//Problem 6: Find the Smallest Number
+function findSmallest(numbers){
+    let smallest = numbers[0]
+    for(let number of numbers){
+         if(number < smallest){
+            smallest=number;
+         }
+    }
+    return smallest;
+}
+console.log(findSmallest([87, 80, 99, 30]))
