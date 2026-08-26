@@ -36,4 +36,20 @@ function sumArray(numbers) {
     return total;
 }
 
-console.log(sumArray([1, 2, 4, 4]))
+// console.log(sumArray([1, 2, 4, 4]))
+
+
+
+
+// Problem 5: Count Even Numbers
+function countEvenNumbers(numbers){
+    let count = 0;
+    for(let number of numbers){
+        if(number%2===0){
+            count = count+1
+        }
+    }
+    return count;
+
+}
+console.log(countEvenNumbers([1, 2, 4, 4]))
