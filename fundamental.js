@@ -146,4 +146,21 @@ function reverseString(str){
     return reversed;
 
 }
-console.log(reverseString("sabuj"))
+
+// console.log(reverseString("sabuj"))
+
+
+//Problem 12: Count Vowels-----------------------
+function countVowels(str){
+    str=str.toLowerCase()
+    let count = 0;
+    for(let char of str){
+        if (char==="a"||char==="e"||char==="i"||char==="o"||char==="u"){
+            count++;
+        }
+    }
+    
+    return count;
+    
+}
+console.log(countVowels("Bangladesh"))
