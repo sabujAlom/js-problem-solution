@@ -122,4 +122,13 @@ function countNegativeNumbers(numbers){
 
 
 
-// 
+// Problem 10: Find the First Even Number
+function findFirstEven(numbers){
+    for(let number of numbers){
+        if(number%2===0){
+            return number;
+        }
+    }
+    
+}
+console.log(findFirstEven([3, 7, 9, 12, 8, 20]))
