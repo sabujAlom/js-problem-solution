@@ -163,4 +163,26 @@ function countVowels(str){
     return count;
     
 }
-console.log(countVowels("Bangladesh"))
+// console.log(countVowels("Bangladesh"))
+
+
+
+
+
+
+//14. count consonant----------------------------------------------------------
+function countConsonant(str){
+    str=str.toLowerCase()
+    let count = 0;
+    for(let char of str){
+        if (char !=="a"&&char!=="e"&&char !=="i"&&char !=="o"&&char !=="u"){
+            count++;
+        }
+    }
+    
+    return count;
+    
+}
+console.log(countConsonant("Bangladesh"))
+
+
