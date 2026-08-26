@@ -83,4 +83,43 @@ function findLargest(numbers){
     
     
 }
-console.log(findLargest([5, 8, 7, 9, 6]))
+// console.log(findLargest([5, 8, 7, 9, 6]))
+
+
+
+
+
+
+//🟢 Problem 8: Count Positive Numbers-----------------------------------------------------
+ function countPositiveNumbers(numbers){
+   let count = 0;
+   for(let number of numbers){
+    if(number>0){
+        count++;
+    }
+   }
+   return count;
+   
+
+ }
+//  console.log(countPositiveNumbers([-2, 5, 7, -1, 0, 10,-5, 9, 11, 19]))
+
+
+
+//Problem 9: Count Negative Numbers
+function countNegativeNumbers(numbers){
+    let count = 0;
+    for(let number of numbers){
+        if(number<0){
+            count++;
+        }
+    }
+    return count;
+}
+// console.log(countNegativeNumbers([4, 44, -8, 8, -9, 99, 75, -80]))
+
+
+
+
+
+// 
