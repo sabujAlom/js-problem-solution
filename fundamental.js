@@ -65,4 +65,22 @@ function findSmallest(numbers){
     }
     return smallest;
 }
-console.log(findSmallest([87, 80, 99, 30]))
+// console.log(findSmallest([87, 80, 99, 30]))
+
+
+
+
+
+// Problem 7: Find the Largest Number in an Array
+function findLargest(numbers){
+   let bigestNumber=numbers[0];
+    for(let number of numbers){
+        if(number>bigestNumber){
+            bigestNumber=number;
+        }
+    }
+    return bigestNumber;
+    
+    
+}
+console.log(findLargest([5, 8, 7, 9, 6]))
