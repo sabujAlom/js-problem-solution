@@ -40,4 +40,13 @@ const result2 = products.map((product)=>{
         return {name:product.name, type:"Regular"}
     }
 })
-console.log(result2)
+// console.log(result2)
+
+const result3 = products.map(product =>{
+    return{
+        name:product.name,
+        type: product.category==="Electronics"? "Premium":"Regular"
+        
+    }
+})
+console.log(result3)
